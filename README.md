@@ -1,3 +1,9 @@
-no input needed. just need to start program and will start. Program play War game agains two players. Who has highest card that one wins the round.
-first card deck shuffle, card deck split, player one, two, choose the card from the deck, play, who has highest card wins round.
-And takes the cards. End off the game when deck is empty, winner is the one who have most of the cards.
+1) Need to start program and will start by asking do we whant to play(yes/no ?).
+2) After each round program will ask again do you want to play a round?.
+3) Game will continue while there is a card in a deck.
+4) When cards a draw and one off two players are a winner( Who has highest card), he gets one point from round.
+5) If its a tie, no one gets a point.
+6) Players do not collect cards.
+7) Played cards do not play again.
+8) Program shuffle the cards. players get the card randomly from the deck.
+ 
