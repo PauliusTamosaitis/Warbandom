@@ -30,9 +30,13 @@ class Deck:
 
     def draw_card(self):
         return self.cards.pop(0)
+
 class Player:
     def __init__(self, name):
         self.name = name
+
+    def add_point(self):
+        self.total_score += 1
         self.total_score = 0
 
     def add_point(self):
