@@ -2,15 +2,12 @@ from card import Card
 import random
 
 class Deck:
+    suits = ['Hearts', 'Diamonds', 'Clubs', 'Spades']
+    ranks = [2, 3, 4, 5, 6, 7, 8, 9, 10, 'Jack', 'Queen', 'King', 'Ace']
+
     def __init__(self):
-        self.cards = []
-        self.build_deck()
+        self.cards = [Card(rank, suit) for suit in self.suits for rank in self.ranks]
         random.shuffle(self.cards)
 
-    def build_deck(self):
-        for suit in ["Spades", "Hearts", "Clubs", "Diamonds"]:
-            for rank in range(2, 15):
-                self.cards.append(Card(rank, suit))
-
     def draw_card(self):
-        return self.cards.pop(0)
+        return self.cards.pop() if self.cards else None
