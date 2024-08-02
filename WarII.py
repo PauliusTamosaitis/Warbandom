@@ -42,3 +42,4 @@ class Player:
     def add_point(self):
         self.total_score += 1
 
+
