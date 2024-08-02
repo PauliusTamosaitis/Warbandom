@@ -1,3 +1,4 @@
+Let's play ! Short version of war game.
 1) Need to start program and will start by asking do we whant to play(yes/no ?).
 2) After each round program will ask again do you want to play a round?.
 3) Game will continue while there is a card in a deck.
